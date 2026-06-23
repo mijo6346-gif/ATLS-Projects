@@ -1,0 +1,39 @@
+h1 {
+  color: rgb(2, 2, 107);
+}
+h2 {
+  color: blue;
+}
+
+p {
+  color: black;
+}
+
+ul {
+  border: 2px solid purple;
+}
+
+ol {
+  border: 2px solid purple;
+}
+
+ol, ul {
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+
+b {
+  color: blue;
+}
+
+i {
+  color: grey;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f5f5f5;
+    /* looked this up, more readable background color */
+ 
+}
