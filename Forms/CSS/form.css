@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+/* form styling */
+body {
+  background-color: #f9f9f9;
+  opacity: 1;
+}
+/* changed background color from white to light gray */
+label {
+	margin-right: .3em;
+	width: 6em;  
+	display: inline-block; /* width will not work for “inline” elements such as “label”. Therefore we need to set it to “inline-block” */
+	text-align: right;
+}
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+#formcol1 li {   
+	list-style:none;
+}
+
+p, label {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.left-label {
+	display: inline-block;
+  text-align: left; /* left alligns the text */
+}
+
+legend {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* changed font to arial and font size from 12px to 16px for better readability
+and made legends bold */
+
+select:focus, select:active, input:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
+color: #FFF !important;
+background-color: #BB3D2F !important;}
+
+#formcol1 input.reqfield {
+	background:#FF9;
+}
+
+
+/* end of form css */
+	
